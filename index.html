@@ -445,10 +445,10 @@
       <div class="big-section-title" style="color: white;">Plan de Inducción</div>
       </div>
   </div>
-  <div class="init-grid">
+  <div class="init-grid" style="margin-bottom: 16px;">
 
       <!-- Actualización planes entrenamiento -->
-      <div class="init-card">
+      <div class="init-card" style="grid-column: 1 / -1;">
         <div class="init-stripe" style="background: linear-gradient(90deg, #C43B82, #E05C8A);"></div>
         <div class="init-inner">
           <div class="init-top">
@@ -468,6 +468,16 @@
         </div>
       </div>
 
+  </div>
+
+  <!-- Onboarding subsection -->
+  <div class="subsection-header" style="margin-bottom:16px;">
+    <span class="subsection-pill" style="background:#3B5EA6; color:#ffffff;">Iniciativas del proyecto de Onboarding</span>
+    <div class="subsection-line" style="background:rgba(59,94,166,0.2);"></div>
+  </div>
+
+  <div class="init-grid">
+
       <!-- Cápsula nuevo ingreso -->
       <div class="init-card">
         <div class="init-stripe" style="background: linear-gradient(90deg, #B86A1A, #E5A822);"></div>
@@ -481,9 +491,15 @@
             </div>
           </div>
           <div class="init-desc">Se activó la cápsula de cómo recibir un nuevo ingreso con el objetivo de garantizar que todos los colaboradores conozcan el proceso correcto para recibir a un nuevo ingreso, asegurando una experiencia de bienvenida, cálida y alineada con la cultura Farmatodo.</div>
-          <div style="background:#FDF3D8; border-radius: 10px; padding: 10px 14px; margin-bottom: 12px; display: flex; align-items: center; gap: 10px;">
-            <div style="font-size: 22px; font-weight: 600; color: #B86A1A;">—%</div>
-            <div style="font-size: 12px; color: #6B7280;">Participación · <span style="font-style:italic;">dato pendiente</span></div>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 12px;">
+            <div style="background:#FDF3D8; border-radius: 10px; padding: 10px 14px;">
+              <div style="font-size: 22px; font-weight: 600; color: #B86A1A; line-height:1;">3.710</div>
+              <div style="font-size: 12px; color: #6B7280; margin-top: 3px;">Visualizaciones de colaboradores</div>
+            </div>
+            <div style="background:#EAF5EA; border-radius: 10px; padding: 10px 14px;">
+              <div style="font-size: 22px; font-weight: 600; color: #3B8C3B; line-height:1;">97%</div>
+              <div style="font-size: 12px; color: #6B7280; margin-top: 3px;">Satisfacción</div>
+            </div>
           </div>
           <div class="tag-row">
             <span class="tag" style="background:#FDF3D8; color:#B86A1A;">Activa</span>
@@ -514,7 +530,7 @@
       </div>
 
       <!-- Estaciones de formación -->
-      <div class="init-card" onclick="openModal('estacion')" style="cursor:pointer;">
+      <div class="init-card" onclick="openModal('estacion')" style="cursor:pointer; grid-column: 1 / -1;">
         <div class="init-stripe" style="background: linear-gradient(90deg, #0D2D6B, #3B82C4);"></div>
         <div class="init-inner">
           <div class="init-top">
@@ -552,22 +568,23 @@
   </div>
   <div class="init-grid">
 
-      <!-- Nuevo Plan -->
+      <!-- Boletín de capacitación -->
       <div class="init-card">
         <div class="init-stripe" style="background: linear-gradient(90deg, #4A2E8A, #7C5CBF);"></div>
         <div class="init-inner">
           <div class="init-top">
             <div class="init-ico" style="background:#EDE8F8;">
-              <svg viewBox="0 0 24 24" fill="none" stroke="#4A2E8A" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="18" x2="12" y2="12"/><line x1="9" y1="15" x2="15" y2="15"/></svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="#4A2E8A" stroke-width="2"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8M15 18h-5M10 6h8v4h-8z"/></svg>
             </div>
             <div>
-              <div class="init-title">Nueva propuesta de Plan de Formación</div>
+              <div class="init-title">Boletín de Capacitación</div>
             </div>
           </div>
-          <div class="init-desc">Se está desarrollando una nueva propuesta de Plan de Formación orientada a la vanguardia y la excelencia, que busca generar capacidades a través del Compromiso y el Autodesarrollo.</div>
+          <div class="init-desc">Se diseñó y distribuyó un boletín mensual al equipo de Operaciones para mantenerlos al tanto de las noticias de Capacitación. Surgió como plan de acción a partir de los comentarios de las tiendas en el CSAT interno.</div>
           <div class="tag-row">
-            <span class="tag" style="background:#EDE8F8; color:#4A2E8A;">Próximamente</span>
-            <span class="tag" style="background:#F1F5F9; color:#475569;">Todos los colaboradores</span>
+            <span class="tag" style="background:#EDE8F8; color:#4A2E8A;">Implementado</span>
+            <span class="tag" style="background:#F1F5F9; color:#475569;">Mensual</span>
+            <span class="tag" style="background:#F1F5F9; color:#475569;">Operaciones</span>
           </div>
         </div>
       </div>
